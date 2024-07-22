@@ -4,15 +4,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#fff" />
+    <meta name="theme-color" content="#050046" />
 
     <title>Get Nostr!</title>
     <link rel="stylesheet/less" type="text/css" href="styles.less" />
     <link rel="stylesheet" href="styles.css" />
     <script src="jquery.js"></script>
     <script src="main.js"></script>
-    
-
 
   <!--- open graph --->
   <meta property="og:title" content="Come join us on Nostr, a new protocol for more than socializing " />
@@ -44,90 +42,82 @@
         <div class="display-heading">Come join us<br class="mobile-hide" /> on Nostr:
         </div>
         <label class="display-heading-subtitle"
-          >a new protocol for<br class="mobile-hide" />
-          socializing (and more)</label
+          >an open protocol <br>re-imagining how we socialize, <br>exchange value...</label
         >
+      
+      <div id="pos center-bottom">
+      <div class="buttons hero">
+        <a class="buttons button primary" href="#get-nostr" alt="Apps and tools to get you started on nostr">get nostr</a>
+        <a class="buttons button secondary" href="#build-nostr" alt="build on nostr">build</a>
       </div>
-
-      <a id="whats-nostr" class="text pos center-bottom" alt="what's nostr?" href="#info">
-        <span>What is Nostr?</span><br />
-        <img src="assets/images/pan_tool_alt.svg" class="svg-neon spin-tweak" />
-      </a>
+      </div>
+    </div>
     </section>
+    <!--- buttons --->
+
     <!--- section info --->
-    <section id="info" class="info">
-      <section>
-        <h1>Notes and other stuff transmitted by relays</h1>
-        <p class="">
-          Nostr flips the current internet paradigm of "dumb client/smart server" to "smart client/dumb server", by using relays and public-key cryptography. Nostr empowers users to control their own data.
-        </p>
-        <p>
-          <a
-            class="bold"
-            href="https://github.com/nostr-protocol/nostr"
-            target="_blank"
-            >Read the protocol</a
-          ><br/>
-          <a
-            class="popup-btn bold"
-            >Watch the video</a
-          >
-        </p>
-
+    <section id="info">
+      <div class="info">
+        <h1><span class="color-nostrich-purple">N</span>otes and <span class="color-nostrich-purple">o</span>ther <span class="color-nostrich-purple">s</span>tuff <span class="color-nostrich-purple">t</span>ransmitted by <span class="color-nostrich-purple">r</span>elays</h1>
+        <a
+          class="popup-btn link"
+          ><img src="assets/icons/icon-play.svg" class="icon-spacing" alt="play icon">Watch the video
+        </a>
+      </div>
       </section>
+      <!--- your nostr --->
+      <section id="your-nostr">
+        <div class="info">
+        <h2>You own your nostr</h2>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Your identity,</h3>
+        <p>You cannot get banned. Individuals can mute or block.</p>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">social graph,</h3>
+        <p>Take your follows and followers wherever you go on nostr.</p>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">content,</h3>
+        <p>Your content is verified to be yours. No need to repost your notes amongst different nostr clients.
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">discovery process,</h3>
+        <p>No forced algorithms to display what they want you to see. <br>Your feed gets built on what you choose for follows, topics...</p>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">keys to the entire nostrverse...</h3>
+        <h4>Instead of accounts owned and controlled by a centralized company, nostr gives you ownership over your nostr through a pair of keys.</h4>
+        <br>
+        <p>Nostr keys are long strings of letters and numbers. You can often distinguish them by their first letters: "npub" or "nsec".</p>
+        <ul>
+          <li>Your nostr public key (npub) can be shared with others to find your profile or mention you.</li>
+          <li>Your nostr secret key (nsec) is similar to a password. You own it. No one can help you recover it, and you cannot change it. Please back it up and keep it safe. Beyond entering a nostr product, your nsec signs your content, so it can be verified as yours.</li>
+        </ul>
+        <p class="small">*Make sure to get a <a href="#extensions" alt="signing extensions">signing extension</a> before accessing nostr on browsers.</p>
 
-      <section>
-         <h3>Be your own content curator</h3>
-         <p class="">
-          Interact with people from across the globe and discover your niche communities. Without a forced closed-source algorithm, your home feed is based on your follows and interests.
-        </p>
-         <!--- <img src="assets/images/.png" class="sectional-img" alt="" />--->
+      </div>
       </section>
-
-      <section>
-        <h3>No central server</h3>
-        <p class="">Alice can send her notes to any servers of her choice.</p>
-        <p class="">Bob can run a server and set his own rules. People can use his relay if they like his relay services, or just fetch specific notes.
-        </p>
-        <p>
-          <a
-            class="bold"
-            href="https://en.wikipedia.org/wiki/Decentralization#Technological_decentralization"
-            target="_blank" alt="decentralization on wikipedia">Learn about decentralization
-          </a>
-        </p>
-        <img src="assets/images/how-nostr-works/how-nostr-works-choose-your-relay-servers.png" class="sectional-img" alt="Alice sending her note through her favorite nostr app, to multiple relay servers of her choice" />
+      <!--- choice --->
+      <section id="choice">
+        <div class="info">
+        <h2>Nostr gives you choice</h2>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">A growing unique nostrverse of clients (apps, websites) and tools</h3>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Customizable settings</h3>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">An array of decentralized relay servers</h3>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">No forced algorithms</h3>
+        <img src="assets/images/how-nostr-works/how-nostr-works-choice-is-nostr.jpg" class="responsive-750px" alt="choice is nostr: an array of apps, websites, and relay servers" />
+        </div>
       </section>
-
-      <section>
-        <h3>Signed at the core</h3>
-        <p class="">
-          Instead of using insecure passwords, all messages are signed using cryptography. You can verify messages &amp; user authenticity without relying on a centralized component. You own your nostr.
-        </p>
-        <p>
-          <a
-            class="bold"
-            href="https://en.wikipedia.org/wiki/Cryptography#Modern_cryptography_2"
-            target="_blank"
-            >Learn about cryptography</a
-          >
-        </p>
-        <img src="assets/images/how-nostr-works/how-nostr-works-sign-and-verify.png" class="sectional-img" alt="Alice using her key to sign her note" />
+      <!--- creativity --->
+      <section id="zapped">
+        <div class="info">
+          <h2>Supporting creators</h2>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Earn zaps for your creativity</h3>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Give direct support to your favorite content creators</h3>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Contribute to building a <a class="alien-heading-link" href="https://value4value.info/" target="_blank" alt="value 4 value deeper dive"> value 4 value economy</a></h3>
+          <img src="assets/images/how-nostr-works/how-nostr-works-zapped.jpg" class="responsive-750px" alt="Alice says, I posted my first note. Bob replies, Zapped with a glow of lightning in his eyes. Alice's hair lifts up as if with static electricity. Her eyes glow with lightning and small origami notes float in her hair. " />
+        </div>
       </section>
-    </section>
-
-      <section id="nostrverse" class="nostrverse">
-        <section class="info">
-          <h2>Discover the nostrverse</h2>
-          <p class="">
-          Nostr is not just one app, it is a diverse software ecosystem. More people are helping build nostr clients every day!
-          </p>
-          <p class="">You can use different client apps that run on the nostr protocol. Pick the ones that best suit your life. 
-          </p>
-          <h3 class="heading-alien">Get the Nostr!</h3>
-          <h4 class="">Apps to get you started</h4>
-          <!--- for android --->
-          <h4 class=""><img class="badge" src="assets/icons/icon-android.svg" /> Android</h4>
+      <!--- get nostr --->
+      <section id="get-nostr">
+        <div class="info">
+        <h2>Get the Nostr!</h2>
+        <p><a class="" href="#info">Why nostr?</a></p>
+        <p>Discover your favorite apps and tools for various needs. Here's a few to get you started.</p>
+        <!--- for android --->
+                  <h4 class=""><img class="badge" src="assets/icons/icon-android.svg" /> Android</h4>
           <ul class="logo-list">
           <!--- amethyst --->
             <li>
@@ -344,46 +334,49 @@
               </a>
             </li>
           </ul>
-        </section>
+        </div>
       </section>
-    <section id="faqs" class="info">
-      <section>
-        <h2>#asknostr</h2>
-        <p class="question" id="devloping">
-          <a href="#ostrich"> Can anyone develop on Nostr? </a>
+      <!--- build nostr --->
+      <section id="build-nostr">
+        <div class="info">
+          <h2>Build on nostr</h2>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Open source protocol</h3>
+          <p class="">Nostr flips the current internet paradigm of "dumb client/smart server" to "smart client/dumb server", by using relays and public private key <a href="https://en.wikipedia.org/wiki/Cryptography#Modern_cryptography_2" class="" target="_blank" alt="cryptography on wikipedia">cryptography</a>. Nostr empowers users to control their own data.
+          </p>
+          <p class="">
+          You can verify messages &amp; user authenticity <a class="" href="https://en.wikipedia.org/wiki/Decentralization#Technological_decentralization"
+          target="_blank" 
+          alt="decentralization on wikipedia">without relying on a centralized component</a>.
         </p>
-        <p class="answer">YES! Nostr's super-power is its permissionless development enviroment. As an interopable and modular protocol, Nostr is a dream to develop for.</p>
-        <p class="question" id="ostrich">
-          <a href="#ostrich"> What's with the Ostrich? </a>
-        </p>
-        <p class="answer">The Ostrich is the beloved mascot of Nostr users.</p>
-        <p class="question" id="what-are-nips">
-          <a href="#what-are-nips"> What are NIPs? </a>
-        </p>
-        <p class="answer">
-          <a href="https://github.com/nostr-protocol/nips" target="_blank"
-            >NIPs</a
-          >
-          stand for Nostr Implementation Possibilities. They are standards for
-          implementing required or optional features through the Nostr protocol.
-        </p>
-        <p class="question" id="browser-safety">
-          <a href="#browser-saftey">
-            Why are browser clients considered unsafe?
-          </a>
-        </p>
-        <p class="answer">
-          This is a valid concern, but web clients are safe as long as they
-          ensure to code against regular attacks such as
-          <a
-            href="https://en.wikipedia.org/wiki/Cross-site_scripting"
+          <h4 class="">Build a new client or tool</h4>
+          <h4 class="">Integrate nostr to an existing product</h4>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Simple protocol design</h3>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Signed and verified at core</h3>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Decentralized relay servers</h3>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Interoperable clients</h3>
+          <h3 class="color-nostrich-purple"><img src="assets/icons/icon-con.svg" class="icon-spacing" alt="cross icon">Nostr is not a blockchain</h3>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Zap micropayments integration</h3>
+          <h4 class="color-alien-green"><a class="" href="https://nwc.dev/" alt="Nostr Wallet Connect (NWC) an open protocol to connect lightning wallets to apps" target="_blank">Nostr Wallet Connect (NWC)</a></h4>
+          <h4 class="color-alien-green"><a class="" href="https://lightningaddress.com/" alt="Lightning Address" target="_blank">Lightning Address</a></h4>
+          <h4 class="color-alien-green"><a class="" href="https://docs.cashu.space/" alt="Cashu protocol for ecash" target="_blank">Cashu Protocol</a></h4>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Built around a web of trust</h3>
+          <p>A web of trust may help with spam prevention and content curation</p>
+          <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Shared network effects</h3>
+          <br><br>
+          <p><a
+            class="buttons button primary"
+            href="https://github.com/nostr-protocol/nostr"
             target="_blank"
-          >
-            Cross Site Scripting</a
-          >. For web developers this can be easily mitigated with a strict
-          content safety policy. Regardless of what client you are using, you
-          should always make sure you trust the author of the software.
-        </p>
+            >Read the nostr protocol
+          </a></p>
+          <img src="assets/images/how-nostr-works/how-nostr-works-sign-verify.jpg" class="responsive-750px" alt="Alice using her key to sign her note" />
+        </div>
+      </section>
+      <!--- asknostr --->
+      <section id="asknostr" class="info">
+        <h2>Have a question about nostr?</h2>
+        <h3 class="color-alien-green">Post a note using #asknostr</h3>
+        <p>People from the nostr community keep an eye on this hashtag to help fellow nostriches troubleshoot.</p> 
       </section>
     </section>
     <section class="info">
@@ -401,7 +394,7 @@
     function replaceContent() {
     var odds = Math.floor(Math.random() * 5) + 1;
     if (odds === 1) {
-      document.getElementById('header-img').innerHTML = '<img src="./assets/images/home/glowalien-2.png" class="glowalien" alt="glowalien" />';
+      document.getElementById('header-img').innerHTML = '<img src="./assets/images/home/glowalien.png" class="glowalien" alt="glowalien" />';
     }
     else{
       document.getElementById('header-img').innerHTML = '<img src="./assets/images/home/glowcrane.png" class="glowalien" alt="glowalien" />';
