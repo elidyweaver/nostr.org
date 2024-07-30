@@ -74,30 +74,39 @@
         <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">social graph,</h3>
         <p>Take your follows and followers wherever you go on nostr.</p>
         <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">content,</h3>
-        <p>Your content is verified to be yours. No need to repost your notes amongst different nostr clients.
+        <p>The need to repost is gone. You can access your content from different nostr clients (apps and websites). It is censorship resistant.</p>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">data,</h3>
+        <p>You are not the product. You don't need an email or phone number to sign up. Most nostr clients protect your privacy by not collecting data.</p>
+        <p class="small">*Your DM's are encrypted, but your DM metadata may be leaked. Developers are working on more private DM communication alternatives. </p>
         <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">discovery process,</h3>
-        <p>No forced algorithms to display what they want you to see. <br>Your feed gets built on what you choose for follows, topics...</p>
+        <p>No forced algorithms. You can tailor your own experience by following the people, topics and communities you are interested in... In the future you will have choices of algorithms too.</p>
         <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">keys to the entire nostrverse...</h3>
-        <h4>Instead of accounts owned and controlled by a centralized company, nostr gives you ownership over your nostr through a pair of keys.</h4>
-        <br>
-        <p>Nostr keys are long strings of letters and numbers. You can often distinguish them by their first letters: "npub" or "nsec".</p>
+        <p>Instead of accounts owned and controlled by a centralized company, nostr gives you ownership over your nostr through a pair of keys.</p>
+        
+        <button class="accordion">What are nostr keys?</button>
+        <div id="key-accordion" class="panel">
+          <br>
+        <p class="accordion-text">When you start on nostr you get a set of keys, two long strings of letters and numbers. You can often distinguish them by their first letters: "npub" or "nsec".</p>
         <ul>
           <li>Your nostr public key (npub) can be shared with others to find your profile or mention you.</li>
-          <li>Your nostr secret key (nsec) is similar to a password. You own it. No one can help you recover it, and you cannot change it. Please back it up and keep it safe. Beyond entering a nostr product, your nsec signs your content, so it can be verified as yours.</li>
+          <li>Your nostr secret key (nsec) is similar to a password to enter nostr products, but <span class="bold">you own it</span>. Please back it up and keep it safe. No one can help you recover it, and you cannot change it. </li>
         </ul>
-        <p class="small">*Make sure to get a <a href="#extensions" alt="signing extensions">signing extension</a> before accessing nostr on browsers.</p>
-
+        <p class="small alien-green">*Make sure to get a <a class="alien-green" href="#extensions" alt="signing extensions">signing extension</a> before accessing nostr on browsers.</p>
+        
+      </div>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Nostr can help prove you are real</h3>
+        <p class="">As the use of AI spreads, nostr cryptographically signs and verifies your content, proving you posted it instead of an AI bot or an impersonator.</p>
       </div>
       </section>
       <!--- choice --->
       <section id="choice">
         <div class="info">
         <h2>Nostr gives you choice</h2>
-        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">A growing unique nostrverse of clients (apps, websites) and tools</h3>
+        <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">A growing and unique nostrverse of <div class="tooltip">clients<span class="tooltiptext">apps or websites running on nostr</span></div> and tools</h3>
         <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Customizable settings</h3>
         <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">An array of decentralized relay servers</h3>
         <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">No forced algorithms</h3>
-        <img src="assets/images/how-nostr-works/how-nostr-works-choice-is-nostr.jpg" class="responsive-750px" alt="choice is nostr: an array of apps, websites, and relay servers" />
+        <img src="assets/images/how-nostr-works/how-nostr-works-choice-is-nostr.png" class="responsive-750px" alt="choice is nostr: an array of apps, websites, and relay servers" />
         </div>
       </section>
       <!--- creativity --->
@@ -110,12 +119,21 @@
           <img src="assets/images/how-nostr-works/how-nostr-works-zapped.jpg" class="responsive-750px" alt="Alice says, I posted my first note. Bob replies, Zapped with a glow of lightning in his eyes. Alice's hair lifts up as if with static electricity. Her eyes glow with lightning and small origami notes float in her hair. " />
         </div>
       </section>
+      <!--- other stuff --->
+      <section id="other-stuff">
+        <div class="info">
+          <h2 class="other-stuff">The Other Stuff</h2>
+          <h3 class="other-stuff">Imagine what is possible when products get built for you instead of for advertisers.</h3>
+          <p class="other-stuff">Nostr is not just social media. With an active developer community working in the open without a centralized company to rule over them, nostr is innovating on everything web. There's no telling what will sprout tomorrow...</p>
+        </div>
+      </section>
       <!--- get nostr --->
       <section id="get-nostr">
         <div class="info">
         <h2>Get the Nostr!</h2>
         <p><a class="" href="#info">Why nostr?</a></p>
         <p>Discover your favorite apps and tools for various needs. Here's a few to get you started.</p>
+
         <!--- for android --->
                   <h4 class=""><img class="badge" src="assets/icons/icon-android.svg" /> Android</h4>
           <ul class="logo-list">
@@ -239,6 +257,17 @@
               <a href="https://github.com/PrimalHQ" title="primal on github" target="_blank">
                 <img class="badge" src="assets/icons/icon-github.svg" /></a>
             </li>
+            <!--- satellite --->
+            <li>
+              <a
+              href="https://satellite.earth/" alt="satellite.earth website"
+              target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/satellite-logo.png" title="satellite logo" alt="satellite logo"  />
+              Satellite <span class="highlight">community</span>
+              </a>
+              <a href="https://github.com/lovvtide/satellite-web" title="satellite on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" /></a>
+            </li>
             <!--- snort --->
             <li>
               <a
@@ -354,7 +383,7 @@
           <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Signed and verified at core</h3>
           <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Decentralized relay servers</h3>
           <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Interoperable clients</h3>
-          <h3 class="color-nostrich-purple"><img src="assets/icons/icon-con.svg" class="icon-spacing" alt="cross icon">Nostr is not a blockchain</h3>
+          <h3 class="color-nostrich-purple"><img src="assets/icons/icon-con.svg" class="icon-spacing" alt="cross icon">Nostr is not a blockchain nor a cryptocurrency</h3>
           <h3 class="color-alien-green"><img src="assets/icons/icon-pro.svg" class="icon-spacing" alt="checkmark icon">Zap micropayments integration</h3>
           <h4 class="color-alien-green"><a class="" href="https://nwc.dev/" alt="Nostr Wallet Connect (NWC) an open protocol to connect lightning wallets to apps" target="_blank">Nostr Wallet Connect (NWC)</a></h4>
           <h4 class="color-alien-green"><a class="" href="https://lightningaddress.com/" alt="Lightning Address" target="_blank">Lightning Address</a></h4>
@@ -404,4 +433,20 @@
 
 replaceContent();
   </script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </html>
