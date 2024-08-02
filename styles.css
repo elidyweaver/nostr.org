@@ -16,9 +16,11 @@
    --glow-white:  #B2BAFF;
    --heading:#7371FF;
    --heading-shadow: #000000;
+   --nostr-clients: #1C0253;
    --nostrich-purple: #938AFF;
    --nostrich-purple-visited: #4E3CBA;
    --nostrich-purple-dark:  #4F1BBE;
+   --pink: #FC0393;
    --question: #A6AAFF;
    --shaka-yellow: #FFE500;
    --shaka-glow: #E1DB85;
@@ -604,17 +606,72 @@ h2.tooltip {
   background-color:  #240063;
 } 
 
+* {
+  box-sizing: border-box;
+}
 
+.row {
+  display: flex;
+  width: 100%;
+}
 
-#build-nostr {
-background: rgb(2,14,131);
-background: linear-gradient(356deg, rgba(2,14,131,1) 0%, rgba(0,10,107,1) 23%, rgba(36,0,99,1) 74%);
-  width: 100vw;
-  height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} 
+/* Float four columns side by side */
+.column {
+  flex: 1;
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  background-color: var(--nostr-clients);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  margin-top: 15px;
+  min-height: 125px;
+  padding: 15px;
+  text-align: left;
+  
+}
+
+.product-logo img {
+  padding-bottom: 15px;
+  display: block;
+}
+
+h4.product-list {
+  margin:  30px 0 0 0;
+}
+
+a.product-logo {
+  padding-left:  15px;
+}
+
+a.product-name {
+  color:  var(--nostrich-purple);
+  font-size:  1.5em;
+  text-decoration:  none;
+}
+
+a.product-name:hover {
+  color:  var(--pink);
+}
+
+.product-quality {
+  color:  var(--glow-white);
+  font-size:  1.2em;
+}
+
 
 .logo-list {
   list-style: none;
@@ -651,6 +708,17 @@ background: linear-gradient(356deg, rgba(2,14,131,1) 0%, rgba(0,10,107,1) 23%, r
 .font-small {
   font-size: 14px;
 }
+
+#build-nostr {
+  background: rgb(2,14,131);
+  background: linear-gradient(356deg, rgba(2,14,131,1) 0%, rgba(0,10,107,1) 23%, rgba(36,0,99,1) 74%);
+  width: 100vw;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
 
 /* mobile */
 
@@ -696,6 +764,11 @@ h4 {
   font-size:  1.5em;
   text-transform:  none;
 }
+
+h4.product-list {
+  margin:  15px 0 10px 0;
+}
+
 p {
   color: var(--text);
   font-size: 1.3em;
@@ -718,6 +791,36 @@ p {
   display: block;
   padding: 5px 0 10px 20px;
 }
+
+.row {
+  display: table;
+  width: 100%;
+}
+
+.column {
+  flex: none;
+  float:  none;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.8);
+  margin: 0 auto;
+  padding:  20px 15px 5px 15px;
+}
+.product-logo {
+  float:  left;
+  padding-right: 25px;
+}
+
+.product-quality {
+  color:  var(--glow-white);
+  font-size:  1.1em;
+}
+
 }
 
 .spin-tweak {

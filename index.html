@@ -138,217 +138,540 @@
       <!--- get nostr --->
       <section id="get-nostr">
         <div class="info">
-        <h2>Get the Nostr!</h2>
-        <p><a class="" href="#info">Why nostr?</a></p>
-        <p>Discover your favorite apps and tools for various needs. Here's a few to get you started.</p>
+          <h2>Get the Nostr!</h2>
+          <p><a class="" href="#info">Why nostr?</a></p>
+          <p>Discover your favorite apps and tools for various needs. Here's a few to get you started.</p>
 
-        <!--- for android --->
-                  <h4 class=""><img class="badge" src="assets/icons/icon-android.svg" /> Android</h4>
-          <ul class="logo-list">
-          <!--- amethyst --->
-            <li>
-              <a
+          <!--- for android --->
+          <h4 id="android" class="product-list"><img class="badge" src="assets/icons/icon-android.svg" /> Android</h4>
+          <div class="row">
+            <!--- amethyst --->
+            <div class="column">
+              <div id="amethyst-android" class="card">
+              <a class="product-logo"
               href="https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst"
               target="_blank" alt="amethyst download link for Google Play store">
-              <img src="assets/images/nostrverse/nostrverse-logos/amethyst-logo.png" title="amethyst logo" alt="amethyst logo" /> Amethyst
-              </a>
+              <img src="assets/images/nostrverse/nostrverse-logos/amethyst-logo.png" title="amethyst logo" alt="amethyst logo" /></a>
+              <a class="product-name"
+                href="https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst"
+                target="_blank" alt="amethyst download link for Google Play store">Amethyst
+                </a>
+                <p class="product-quality">social</p>
               <a href="https://github.com/vitorpamplona/amethyst" title="Amethyst on github" target="_blank">
               <img class="badge" src="assets/icons/icon-github.svg" /></a>
-            </li>
+            </div>
+          </div>
           <!--- primal --->
-            <li>
-              <a
+            <div class="column">
+              <div id="primal-android" class="card">
+              <a class="product-logo"
               href="https://primal.net/downloads" alt="primal website"
               target="_blank">
-                <img src="assets/images/nostrverse/nostrverse-logos/primal-logo.png" title="primal logo" alt="primal logo"  />
-                Primal
+                <img src="assets/images/nostrverse/nostrverse-logos/primal-logo.png" title="primal logo" alt="primal logo"  /></a>
+              <a class="product-name"
+                href="https://primal.net/downloads"
+                target="_blank" alt="primal download">Primal
+                </a>
+                <p class="product-quality">social</p>
+              <a class=""
+                href="https://github.com/PrimalHQ" title="primal on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
               </a>
-              <a href="https://github.com/PrimalHQ" title="primal on github" target="_blank">
-                <img class="badge" src="assets/icons/icon-github.svg" /></a>
-            </li>
-          </ul>
+            </div>
+          </div>
+          <!--- YakiHonne --->
+            <div class="column">
+              <div id="yakihonne-android" class="card">
+              <a class="product-logo"
+                href="https://yakihonne.com/" alt="YakiHonne website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/yakihonne-logo.png" title="yakihonne logo" alt="yakihonne logo"  />
+              </a>
+              <a class="product-name"
+                href="https://yakihonne.com/"
+                target="_blank" alt="YakiHonne website">YakiHonne
+                </a>
+                <p class="product-quality">blogging</p>
+              <a class=""
+                href="https://github.com/YakiHonne/yakihonne-mobile-app" title="yakihonne on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+            </div>
+          </div>
+          <!--- end of columns --->
+        </div>
           <!--- for iOS --->
-          <h4 class=""><img class="badge" src="assets/icons/icon-apple.svg" /> iOS</h4>
-          <ul class="logo-list">
+          <h4 id="ios" class="product-list"><img class="badge" src="assets/icons/icon-apple.svg" /> iOS</h4>
+          <div class="row">
             <!--- damus --->
-            <li>
-              <a
-              href="https://damus.io/" alt="damus website"
+            <div class="column">
+              <div id="damus-ios" class="card">
+              <a class="product-logo"
+                href="https://damus.io/" alt="damus website"
               target="_blank">
                 <img src="assets/images/nostrverse/nostrverse-logos/damus-logo.png" title="damus logo" alt="damus logo"  />
-              Damus
               </a>
-              <a href="https://github.com/damus-io/damus" title="Damus on github" target="_blank">
-                <img class="badge" src="assets/icons/icon-github.svg" /></a>
-            </li>
-            <!--- nos --->
-            <li>
-              <a
-              href="https://www.nos.social/" alt="nos website"
+              <a class="product-name"
+                href="https://damus.io/" alt="damus website"
+              target="_blank">Damus
+                </a>
+                <p class="product-quality">social</p>
+              <a class="" 
+                href="https://github.com/damus-io/damus" title="Damus on github" target="_blank">
+              <img class="badge" src="assets/icons/icon-github.svg" /></a>
+            </div>
+          </div>
+          <!--- nos --->
+            <div class="column">
+              <div id="nos-ios" class="card">
+              <a class="product-logo"
+                href="https://www.nos.social/" alt="nos website"
               target="_blank">
                 <img src="assets/images/nostrverse/nostrverse-logos/nos-logo.png" title="nos logo" alt="nos logo"  />
-              Nos
               </a>
-              <a href="https://github.com/planetary-social/nos" title="Nos by Planetary on github" target="_blank">
-              <img class="badge" src="assets/icons/icon-github.svg" /></a>
-            </li>
-            <!--- nostur --->
-            <li>
-              <a
-              href="https://www.nostur.com/" alt="nostur website"
-              target="_blank">
+              <a class="product-name"
+                href="https://www.nos.social/" alt="nos website"
+              target="_blank">Nos
+                </a>
+                <p class="product-quality">social</p>
+              <a class="" 
+                href="https://github.com/planetary-social/nos" title="Nos by Planetary on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+            </div>
+          </div>
+          <!--- nostur --->
+            <div class="column">
+              <div id="nostur-ios" class="card">
+              <a class="product-logo"
+                href="https://www.nostur.com/" alt="nostur website"
+                target="_blank">
                 <img src="assets/images/nostrverse/nostrverse-logos/nostur-logo.png" title="nostur logo" alt="nostur logo"  />
-              Nostur
               </a>
-              <a href="https://github.com/nostur-com/nostur-ios-public" title="Nostur on github" target="_blank">
-              <img class="badge" src="assets/icons/icon-github.svg" /></a>
-            </li>
-            <!--- primal --->
-            <li>
-              <a
-              href="https://primal.net/downloads" alt="primal website"
-              target="_blank">
-              <img src="assets/images/nostrverse/nostrverse-logos/primal-logo.png" title="primal logo" alt="primal logo"  />
-              Primal
-              </a>
-              <a href="https://github.com/PrimalHQ" title="primal on github" target="_blank">
+              <a class="product-name"
+                href="https://www.nostur.com/" alt="nostur website"
+                target="_blank">Nostur
+                </a>
+                <p class="product-quality">social</p>
+              <a class="" 
+                href="https://github.com/nostur-com/nostur-ios-public" title="Nostur on github" target="_blank">
                 <img class="badge" src="assets/icons/icon-github.svg" />
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
+          <!--- end of columns --->
+        </div>
+        <!--- iOS row 2 --->
+        <div class="row">
+            <!--- primal --->
+            <div class="column">
+              <div id="primal-ios" class="card">
+              <a class="product-logo"
+                href="https://primal.net/downloads" alt="primal website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/primal-logo.png" title="primal logo" alt="primal logo"  />
+              </a>
+              <a class="product-name"
+                href="https://primal.net/downloads" alt="primal website"
+                target="_blank">Primal
+                </a>
+                <p class="product-quality">social</p>
+              <a class="" 
+                href="https://github.com/PrimalHQ" title="primal on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+            </div>
+          </div>
+            <!--- yakihonne --->
+            <div class="column">
+              <div id="yakihonne-ios" class="card">
+                <a class="product-logo"
+                href="https://yakihonne.com/" alt="YakiHonne website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/yakihonne-logo.png" title="yakihonne logo" alt="yakihonne logo"  />
+              </a>
+              <a class="product-name"
+                href="https://yakihonne.com/"
+                target="_blank" alt="YakiHonne website">YakiHonne
+                </a>
+                <p class="product-quality">blogging</p>
+              <a class=""
+                href="https://github.com/YakiHonne/yakihonne-mobile-app" title="yakihonne on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+              </div>
+            </div>
+          <!--- end of columns --->
+        </div>
+
           <!--- for Web Apps --->
-          <h4 class=""><img class="badge" src="assets/icons/icon-browser.svg" /> Web apps</h4>
-          <p class="">To login & post on web apps, please use a <a href="#extensions" alt="nostr signing extensions">signing extension</a></p>
-          <ul class="logo-list">
-          <!--- coracle --->
-          <li>
-            <a
-              href="https://app.coracle.social/" alt="coracle website"
-              target="_blank">
-              <img src="assets/images/nostrverse/nostrverse-logos/coracle-logo.png" title="coracle logo" alt="coracle logo"  />
-              Coracle
+          <h4 id="web-apps" class="product-list"><img class="badge" src="assets/icons/icon-browser.svg" /> Web apps</h4>
+          <p class="">To login & post on web apps, please use a <a href="#extensions" alt="nostr signing extensions">signing extension</a>.</p>
+          <div class="row">
+            <!--- coracle --->
+            <div class="column">
+              <div id="coracle-web" class="card">
+              <a class="product-logo"
+                href="https://app.coracle.social/" alt="coracle website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/coracle-logo.png" title="coracle logo" alt="coracle logo"  />
+              </a>
+              <a class="product-name"
+                href="https://app.coracle.social/" alt="coracle website"
+                target="_blank">Coracle
+                </a>
+                <p class="product-quality">social</p>
+              <a class="" 
+                href="https://github.com/coracle-social/coracle" title="Coracle on github" target="_blank">
+              <img class="badge" src="assets/icons/icon-github.svg" />
             </a>
-            <a href="https://github.com/coracle-social/coracle" title="Coracle on github" target="_blank">
-              <img class="badge" src="assets/icons/icon-github.svg" /></a>
-            </li>
-            <!--- habla.news --->
-            <li>
-              <a
-              href="https://habla.news/" alt="habla news website"
-              target="_blank">
+            </div>
+          </div>
+          <!--- habla news --->
+            <div class="column">
+              <div id="habla-web" class="card">
+              <a class="product-logo"
+                href="https://habla.news/" alt="habla news website"
+                target="_blank">
                 <img src="assets/images/nostrverse/nostrverse-logos/habla-news-logo.png" title="habla news logo" alt="habla news logo"  />
-              Habla <span class="highlight">blog</span>
               </a>
-              <a href="https://github.com/verbiricha/habla.news" title="habla news on github" target="_blank">
+              <a class="product-name"
+                href="https://habla.news/" alt="habla news website"
+                target="_blank">Habla
+                </a>
+                <p class="product-quality">blogging</p>
+              <a class="" 
+                href="https://github.com/verbiricha/habla.news" title="habla news on github" target="_blank">
                 <img class="badge" src="assets/icons/icon-github.svg" />
               </a>
-            </li>
-            <!--- nostrudel --->
-            <li>
-              <a
-              href="https://nostrudel.ninja/" alt="nostrudel website"
-              target="_blank">
+            </div>
+          </div>
+          <!--- highlighter --->
+            <div class="column">
+              <div id="highlighter-web" class="card">
+              <a class="product-logo"
+                href="https://highlighter.com/" alt="highlighter website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/highlighter-logo.png" title="highlighter logo" alt="highlighter logo"  />
+              </a>
+              <a class="product-name"
+                href="https://highlighter.com/" alt="highlighter website"
+                target="_blank">Highlighter
+                </a>
+                <p class="product-quality">blogging</p>
+              <a class="" 
+                href="https://github.com/pablof7z/highlighter" title="highlighter on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+            </div>
+          </div>
+          <!--- end of columns --->
+        </div>
+        <!--- web row 2 --->
+        <div class="row">
+          <!--- hivetalk --->
+          <div class="column">
+              <div id="highlighter-web" class="card">
+              <a class="product-logo"
+                href="https://hivetalk.org/" alt="hivetalk website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/hivetalk-logo.png" title="hivetalk logo" alt="hivetalk logo"  />
+              </a>
+              <a class="product-name"
+                href="https://hivetalk.org/" alt="hivetalk website"
+                target="_blank">HiveTalk
+                </a>
+                <p class="product-quality">meeting spaces</p>
+              <a class="" 
+                href="https://github.com/HiveTalk/hivetalksfu" title="hivetalk on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+            </div>
+          </div>
+            
+            <!--- nostr market --->
+            <div class="column">
+              <div id="nostr-market-web" class="card">
+              <a class="product-logo"
+                href="https://market.nostr.com" alt="nostr market website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/nostr-market-logo.png" title="nostr market logo" alt="nostr market logo"  />
+              </a>
+              <a class="product-name"
+                href="https://market.nostr.com" alt="nostr market website"
+                target="_blank">Nostr Market
+                </a>
+                <p class="product-quality">marketplaces</p>
+              <a class="" 
+                href="https://github.com/lnbits/nostrmarket" title="nostr market on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+            </a>
+            </div>
+          </div>
+          <!--- nostrnests --->
+          <div class="column">
+              <div id="nostrnests-web" class="card">
+              <a class="product-logo"
+                href="https://nostrnests.com/" alt="nostrnests website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/nostrnests-logo.png" title="nostrnests logo" alt="nostrnests logo"  />
+              </a>
+              <a class="product-name"
+                href="https://nostrnests.com/" alt="nostrnests website"
+                target="_blank">Nostrnests
+                </a>
+                <p class="product-quality">meeting spaces</p>
+              <a class="" 
+                href="https://github.com/nostrnests/nests" title="nostrnests on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+            </a>
+            </div>
+          </div>
+        <!--- end of columns --->
+        </div>
+        <!--- web row 3 --->
+        <div class="row">
+          <!--- nostrudel --->
+          <div class="column">
+              <div id="nostrudel-web" class="card">
+              <a class="product-logo"
+                href="https://nostrudel.ninja/" alt="nostrudel website"
+                target="_blank">
                 <img src="assets/images/nostrverse/nostrverse-logos/nostrudel-logo.png" title="nostrudel logo" alt="nostrudel logo"  />
-              Nostrudel
               </a>
-              <a href="https://github.com/hzrd149/nostrudel" title="nostrudel on github" target="_blank">
-                <img class="badge" src="assets/icons/icon-github.svg" /></a>
-            </li>
-            <!--- primal --->
-            <li>
-              <a
-              href="https://primal.net/home" alt="primal website"
-              target="_blank">
-                <img src="assets/images/nostrverse/nostrverse-logos/primal-logo.png" title="primal logo" alt="primal logo"/>
-              Primal
-              </a>
-              <a href="https://github.com/PrimalHQ" title="primal on github" target="_blank">
-                <img class="badge" src="assets/icons/icon-github.svg" /></a>
-            </li>
-            <!--- satellite --->
-            <li>
-              <a
-              href="https://satellite.earth/" alt="satellite.earth website"
-              target="_blank">
-                <img src="assets/images/nostrverse/nostrverse-logos/satellite-logo.png" title="satellite logo" alt="satellite logo"  />
-              Satellite <span class="highlight">community</span>
-              </a>
-              <a href="https://github.com/lovvtide/satellite-web" title="satellite on github" target="_blank">
-                <img class="badge" src="assets/icons/icon-github.svg" /></a>
-            </li>
-            <!--- snort --->
-            <li>
-              <a
-              href="https://snort.social/" alt="snort website"
-              target="_blank">
-                <img src="assets/images/nostrverse/nostrverse-logos/snort-logo.png" title="snort logo" alt="snort logo"  />
-              Snort
-              </a>
-              <a href="https://github.com/v0l/snort" title="snort on github" target="_blank">
-                <img class="badge" src="assets/icons/icon-github.svg" /></a>
-            </li>
-          </ul>
-          <!-- signing extensions --->
-          <h4 id="extensions" class=""><img class="badge" src="assets/icons/icon-extension.svg" /> Signing extensions</h4>
-          <p class="">Keep your keys more secure</p>
-          <ul class="logo-list">
-            <!--- alby --->
-            <li>
-              <a href="https://getalby.com" target="_blank">
-                <img src="assets/images/nostrverse/nostrverse-logos/alby-logo.png" />
-                Alby
-              </a>
-              <a href="https://github.com/getAlby/lightning-browser-extension" title="alby on github" target="_blank">
+              <a class="product-name"
+                href="https://nostrudel.ninja/" alt="nostrudel website"
+                target="_blank">Nostrudel
+                </a>
+                <p class="product-quality">social</p>
+              <a class="" 
+                href="https://github.com/hzrd149/nostrudel" title="nostrudel on github" target="_blank">
                 <img class="badge" src="assets/icons/icon-github.svg" />
               </a>
-            </li>
-            <!--- nos2x --->
-            <li>
-              <a
+            </div>
+          </div>
+          <!--- primal --->
+          <div class="column">
+              <div id="primal-web" class="card">
+              <a class="product-logo"
+                href="https://primal.net/home" alt="primal website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/primal-logo.png" title="primal logo" alt="primal logo"/>
+              </a>
+              <a class="product-name"
+                href="https://primal.net/home" alt="primal website"
+                target="_blank">Primal
+                </a>
+                <p class="product-quality">social</p>
+              <a class="" 
+                href="https://github.com/PrimalHQ" title="primal on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+            </div>
+          </div>
+          <!--- satellite --->
+          <div class="column">
+              <div id="satellite-web" class="card">
+              <a class="product-logo"
+                href="https://satellite.earth/" alt="satellite.earth website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/satellite-logo.png" title="satellite logo" alt="satellite logo"  />
+              </a>
+              <a class="product-name"
+                href="https://satellite.earth/" alt="satellite.earth website"
+                target="_blank">Satellite
+                </a>
+                <p class="product-quality">communities</p>
+              <a class="" 
+                href="https://github.com/lovvtide/satellite-web" title="satellite on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+            </div>
+          </div>
+          <!--- end columns --->
+        </div>
+        <!--- web row 4 --->
+        <div class="row">
+          <!--- snort --->
+          <div class="column">
+              <div id="snort-web" class="card">
+              <a class="product-logo"
+                href="https://snort.social/" alt="snort website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/snort-logo.png" title="snort logo" alt="snort logo"  />
+              </a>
+              <a class="product-name"
+                href="https://snort.social/" alt="snort website"
+                target="_blank">Snort
+                </a>
+                <p class="product-quality">social</p>
+              <a class="" 
+                href="https://github.com/v0l/snort" title="snort on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+            </div>
+          </div>
+          <!--- yakihonne ---->
+          <div class="column">
+              <div id="yakihonne-web" class="card">
+              <a class="product-logo"
+                href="https://yakihonne.com/" alt="YakiHonne website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/yakihonne-logo.png" title="yakihonne logo" alt="yakihonne logo"  />
+              </a>
+              <a class="product-name"
+                href="https://yakihonne.com/" alt="YakiHonne website"
+                target="_blank">YakiHonne
+                </a>
+                <p class="product-quality">blogging</p>
+              <a class="" 
+                href="https://github.com/YakiHonne/yakihonne-web-app" title="yakihonne on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+            </div>
+          </div>
+          <!--- zap stream --->
+          <div class="column">
+              <div id="zap-stream-web" class="card">
+              <a class="product-logo"
+                href="https://zap.stream/" alt="zap stream website"
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/zap-stream-logo.png" title="zap stream logo" alt="zap stream logo"  />
+              </a>
+              <a class="product-name"
+                href="https://zap.stream/" alt="zap stream website"
+                target="_blank">Zap stream
+                </a>
+                <p class="product-quality">streaming</p>
+              <a class="" 
+                href="https://github.com/v0l/zap.stream" title="zap stream on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+              </a>
+            </div>
+          </div>
+          <!--- end columns --->
+        </div>
+          <!-- signing extensions --->
+          <h4 id="extensions" class="product-list"><img class="badge" src="assets/icons/icon-extension.svg" /> Signing extensions</h4>
+          <p class="">Keep your keys more secure.</p>
+          <div class="row">
+            <!--- alby --->
+            <div class="column">
+              <div id="alby-signing" class="card">
+              <a class="product-logo"
+                href="https://getalby.com" target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/alby-logo.png" />
+              </a>
+              <a class="product-name"
+                href="https://getalby.com" target="_blank">Alby
+                </a>
+                <p class="product-quality">browser</p>
+              <a class="" 
+                href="https://github.com/getAlby/lightning-browser-extension" title="alby on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+            </a>
+            </div>
+          </div>
+          <!--- horse --->
+          <div class="column">
+              <div id="horse-signing" class="card">
+              <a class="product-logo"
+                href="https://chromewebstore.google.com/detail/horse/ogdjeglchjlenflecdcoonkngmmipcoe" 
+                target="_blank">
+                <img src="assets/images/nostrverse/nostrverse-logos/horse-logo.png" />
+              </a>
+              <a class="product-name"
+                href="https://chromewebstore.google.com/detail/horse/ogdjeglchjlenflecdcoonkngmmipcoe" 
+                target="_blank">Horse
+                </a>
+                <p class="product-quality">hardware</p>
+              <a class="" 
+                href="https://github.com/lnbits/horse" title="horse on github" target="_blank">
+                <img class="badge" src="assets/icons/icon-github.svg" />
+            </a>
+            </div>
+          </div>
+          <!--- nos2x --->
+          <div class="column">
+              <div id="nos2x-signing" class="card">
+              <a class="product-logo"
                 href="https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp" target="_blank">
                 <img src="assets/images/nostrverse/nostrverse-logos/nos2x-logo.png" />
-                nos2x
               </a>
-              <a href="https://github.com/fiatjaf/nos2x" title="nos2x on github" target="_blank">
+              <a class="product-name"
+                href="https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp" target="_blank">nos2x
+                </a>
+                <p class="product-quality">chrome browser</p>
+              <a class="" 
+                href="https://github.com/fiatjaf/nos2x" title="nos2x on github" target="_blank">
                 <img class="badge" src="assets/icons/icon-github.svg" />
-              </a>
-            </li>
-            <!--- nostore --->
-            <li>
-              <a
-                href="https://apps.apple.com/app/nostore/id1666553677" target="_blank">
+            </a>
+            </div>
+          </div>
+          <!--- end columns --->
+        </div>
+        <!--- signing extensions row 2 --->
+        <div class="row">
+          <!--- nostore --->
+          <div class="column">
+              <div id="nostore-signing" class="card">
+              <a class="product-logo"
+                href="https://apps.apple.com/app/nostore/id1666553677" 
+                target="_blank">
                 <img src="assets/images/nostrverse/nostrverse-logos/nostore-logo.png" />
-                Nostore
               </a>
-              <a href="https://github.com/ursuscamp/nostore" title="nostore on github" target="_blank">
+              <a class="product-name"
+                href="https://apps.apple.com/app/nostore/id1666553677" 
+                target="_blank">Nostore
+                </a>
+                <p class="product-quality">safari browser</p>
+              <a class="" 
+                href="https://github.com/ursuscamp/nostore" title="nostore on github" target="_blank">
                 <img class="badge" src="assets/icons/icon-github.svg" />
               </a>
-            </li>
-            <!--- nsecbunker --->
-            <li>
-              <a
+            </div>
+          </div>
+          <!--- nsecBunker --->
+          <div class="column">
+              <div id="nsecbunker-signing" class="card">
+              <a class="product-logo"
                 href="https://nsecbunker.com/" target="_blank">
                 <img src="assets/images/nostrverse/nostrverse-logos/nsecbunker-logo.png" />
-                nsecBunker
               </a>
-              <a href="https://github.com/kind-0/nsecbunkerd" title="nostore on github" target="_blank">
+              <a class="product-name"
+                href="https://nsecbunker.com/" target="_blank">nsecBunker
+                </a>
+                <p class="product-quality">daemon</p>
+              <a class="" 
+                href="https://github.com/kind-0/nsecbunkerd" title="nostore on github" target="_blank">
                 <img class="badge" src="assets/icons/icon-github.svg" />
               </a>
-            </li>
-            <!--- nsec.app --->
-            <li>
-              <a
-                href="https://nsec.app/" target="_blank">
+            </div>
+          </div>
+          <!--- nsec app --->
+          <div class="column">
+              <div id="nsecapp-signing" class="card">
+              <a class="product-logo"
+                href="https://nsec.app/" 
+                target="_blank">
                 <img src="assets/images/nostrverse/nostrverse-logos/nsecapp-logo.png" />
-                Nsec.app
               </a>
-              <a href="https://github.com/nostrband/noauth" title="nsec.app on github" target="_blank">
+              <a class="product-name"
+                href="https://nsec.app/" 
+                target="_blank">Nsec.app
+                </a>
+                <p class="product-quality">web app</p>
+              <a class="" 
+                href="https://github.com/nostrband/noauth" title="nsec.app on github" target="_blank">
                 <img class="badge" src="assets/icons/icon-github.svg" />
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
+
+          <!--- end columns --->
+        </div>
           <!--- command line tools --->
-          <h4 class=""><img class="badge" src="assets/icons/icon-cli.svg" /> Desktop & command line tools for the terminal</h4>
+          <h4 class="product-list"><img class="badge" src="assets/icons/icon-cli.svg" /> Desktop & command line tools for the terminal</h4>
           <ul class="logo-list">
             <!--- algia --->
             <li>
